@@ -1,0 +1,27 @@
+
+
+.box{ width: 35vw; height:15vw; background:rgb(113, 129, 115);  position: absolute; display: flex;
+  left: 32vw; top: 100vw}
+
+.box2{ width: 35vw; height:15vw; background:rgb(108, 128, 111);  position: absolute; display: flex;
+    left: 32vw; top: 70vw}
+
+.font-setting{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+  font-family: FZShuTi;
+}
+
+
+.boxHover{background: green;}
+
+.root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -99999;
+}
+

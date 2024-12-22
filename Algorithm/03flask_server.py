@@ -31,7 +31,7 @@ model.fc = nn.Sequential(
 )   
 
 
-path_model="./model.ckpt"
+path_model="./Algorithm/model.ckpt"
 model=torch.load(path_model, map_location=torch.device('cpu'))
 model = model.to(device)
 
@@ -102,6 +102,6 @@ def return_result():
 
 
 if __name__ == "__main__":
-    app.run("192.168.0.110", port=4399)
+    app.run("127.0.0.1", port=4399)
 
 
